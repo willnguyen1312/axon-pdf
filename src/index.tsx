@@ -1,6 +1,8 @@
-import * as React from 'react';
+import React from 'react';
+import styled from 'styled-components';
 
-// Delete me
+const Wrapper = styled.div``;
+
 export const Thing = () => {
-  return <div>the snozzberries taste like snozzberries</div>;
+  return <Wrapper>It's so awesome!!!</Wrapper>;
 };
